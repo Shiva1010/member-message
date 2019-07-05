@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>會員專用留言板</title>
+</head>
+<body>
+
+<form action="77add_msg.php" method="post">
+    <div align="center">歡迎會員登入留言板</div>
+    <table align="center" border="1">
+
+        <tr>
+            <td>日期:</td><td><input type="date" name="m_date" size ="12"/></td>
+        </tr>
+
+        <tr>
+            <td>主旨:</td><td><input type="text" name="m_main" size="24"/></td>
+        </tr>
+
+        <tr>
+            <td>留言內容:</td><td><textarea cols="100" rows="7" name="m_msg">輸入你想留下的訊息...</textarea></td>
+        </tr>
+
+        <tr>
+            <td><input type="submit" name="Insert" value="儲存留言" /></td>
+        </tr>
+
+    </table>
+
+</form>
+
+</body>
+</html>
